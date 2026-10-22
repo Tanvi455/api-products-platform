@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+dist/
+npm-debug.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Reference assignment - do not upload
+reference/
+
+# Local dashboard code backup
+api-products-dashboard/App-full.txt
